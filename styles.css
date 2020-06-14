@@ -1,0 +1,190 @@
+.navbar{
+    background-color: #009999;
+    display: flex;
+    height: 50px;
+}
+body{
+    background-image: url(signup_background.jpg);
+    background-size: 1500px 700px;
+    background-repeat: no-repeat;
+    }
+    .barefoot{
+        color:#ff6666;
+        position: absolute;
+        top: 25px;
+        margin-left: 15px;
+    }
+    .sign-in{
+        position: absolute;
+        right: 3%;
+        color: #ffffff;
+        top: 25px;
+    }
+    .nomad{
+        color: #ffffff;
+        position: absolute;
+        top: 25px;
+        left:80px;
+    }
+    .title{
+        color: #ffffff;
+        position: absolute;
+        top:10px;
+        right: 50%;
+    }
+    .join{
+        border: 0,5px solid black;
+        background-color: #9decec;
+        opacity: 0.5;
+        height: 500px;
+        position: absolute;
+        right: 20%;
+        left: 38%;
+        top:150px
+    }
+    .first{
+        width:190px;
+        height: 30px;
+        border-radius: 20px;
+        background-color: #ffffff;
+        position: absolute;
+        border:1px solid white;
+        box-shadow:0px 0px 10px 0px rgba(0,0,0,0.19);
+        outline:none;
+        left: 5%;
+        top:7%;
+    }
+    .last{
+        width:220px;
+        height: 30px;
+        border-radius: 20px;
+        background-color: #ffffff;
+        position: absolute;
+        top:7%;
+        left:45%
+    }
+    .email{
+        width: 430px;
+        height: 30px;
+        border-radius: 20px;
+        background-color: #ffffff;
+        position: absolute;
+        top: 15%;
+        left: 5%;
+    }
+    .address{
+        width: 430px;
+        height: 30px;
+        border-radius: 20px;
+        background-color: #ffffff;
+        position: absolute;
+        top: 23%;
+        left:5%;
+    }
+    .gender{
+        width: 430px;
+        height: 30px;
+        background-color: #ffffff;
+        border-radius: 20px;
+        position: absolute;
+        top: 31%;
+        left: 5%;
+    }
+    .user_name{
+        width: 430px;
+        height: 30px;
+        background-color: #ffffff;
+        border-radius: 20px;
+        position: absolute;
+        top: 39%;
+        left:5%;
+    }
+    .password{
+        width:430px;
+        height: 30px;
+        background-color: #ffffff;
+        border-radius: 20px;
+        position: absolute;
+        top:47%;
+        left:5%;
+    }
+    .create{
+        width: 430px;
+        height: 30px;
+        border-radius: 20px;
+        background-color: #ff6666;
+        color: #ffffff;
+        position: absolute;
+        top: 55%;
+        left:5%;
+    }
+    .facebook{
+        width:190px;
+        height: 30px;
+        border-radius: 20px;
+        background-color: #336699;
+        position: absolute;
+        left: 5%;
+        top:63%;
+        color: #ffffff;
+
+    } 
+
+.google{
+    width:220px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: #ffffff;
+    position: absolute;
+    left: 45%;
+    top:63%;
+    color: #000000;
+} 
+.gtx{
+    position: absolute;
+    top:25%;
+    left:50px;
+}
+.google_icon{
+    position: absolute;
+    top:25%;
+    left:6%
+}
+.already{
+    color: #ffffff;
+    position: absolute;
+    top:90%;
+    left:45%;
+}
+.log{
+color: #ff6666;
+position: absolute;
+top: 90%;
+left:60%;
+}
+.fbtx{
+    position: absolute;
+    top:25%;
+    left:45px;
+}
+.facebook_icon{
+    position: absolute;
+    top:10%;
+    left:6%
+}
+@media (max-width:500px)
+{
+    .first{
+        display:flex;
+        flex-direction:column;
+         width:100%;
+         background-color:red;
+         margin-top:10px;
+    }
+    .last{
+        display:flex;
+        flex-direction:column;
+         width:100%;
+         margin-top:10px;
+    }
+}
